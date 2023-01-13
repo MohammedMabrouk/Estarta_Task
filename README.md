@@ -11,7 +11,7 @@ Application is using the following technologies:
 - Presentation: DataBinding - Constraint Layout 
 
 #screenshots
-[<img src="/readme/Wallabag%20Reading%20List.png" align="left"
+[<img src="/readme/home.png" align="left"
 width="200" hspace="10" vspace="10">](/readme/home.png)
-[<img src="/readme/Wallabag%20Article%20View.png" align="center" width="200"
+[<img src="/readme/details.png" align="center" width="200"
 hspace="10" vspace="10">](/readme/details.png)
