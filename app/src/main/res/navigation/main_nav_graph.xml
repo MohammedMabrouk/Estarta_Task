@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/productListFragment"
         android:name="com.mohamedmabrouk.estarta_task.presentation.productList.ProductListFragment"
-        android:label="ProductListFragment"
+        android:label="Home"
         tools:layout="@layout/fragment_product_list">
         <action
             android:id="@+id/action_productListFragment_to_productDetailsFragment"
@@ -17,6 +17,12 @@
     <fragment
         android:id="@+id/productDetailsFragment"
         android:name="com.mohamedmabrouk.estarta_task.presentation.productDetails.ProductDetailsFragment"
-        android:label="fragment_product_details"
-        tools:layout="@layout/fragment_product_details" />
+        android:label="Product Details"
+        tools:layout="@layout/fragment_product_details">
+        <argument
+            android:name="product"
+            android:defaultValue="@null"
+            app:argType="com.mohamedmabrouk.estarta_task.source.model.Product"
+            app:nullable="true" />
+    </fragment>
 </navigation>

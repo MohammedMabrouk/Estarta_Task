@@ -7,6 +7,7 @@ import com.mohamedmabrouk.estarta_task.source.ProductsRepository
 import com.mohamedmabrouk.estarta_task.source.remote.ProductAPIs
 import com.mohamedmabrouk.estarta_task.source.remote.ProductsRemoteDataSource
 import com.mohamedmabrouk.estarta_task.utils.Constants
+import com.mohamedmabrouk.estarta_task.utils.ErrorResolver
 import com.mohamedmabrouk.estarta_task.utils.NetworkState
 import dagger.Module
 import dagger.Provides
@@ -85,5 +86,11 @@ object AppModule {
                 productAPIs
             )
         )
+    }
+
+    @Provides
+    @Singleton
+    fun provideErrorResolver(context: Context): ErrorResolver {
+        return ErrorResolver(context)
     }
 }
