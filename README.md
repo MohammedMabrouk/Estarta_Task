@@ -10,7 +10,7 @@ Application is using the following technologies:
 - Asynchronous: Kotlin Coroutines/Flow 
 - Presentation: DataBinding - Constraint Layout 
 
-#screenshots
+# Screenshots
 [<img src="/readme/home.png" align="left"
 width="200" hspace="10" vspace="10">](/readme/home.png)
 [<img src="/readme/details.png" align="center" width="200"
